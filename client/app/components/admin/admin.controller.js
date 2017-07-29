@@ -13,8 +13,7 @@ class AdminController {
         $scope.gridApi = gridApi;
       }
     };
-    this.getUsers($scope);
-    this.Users.visit(window.localStorage.getItem("musiclibrary-token"));
+    this.getUsers($scope)
   }
 
   getUsers(scope) {

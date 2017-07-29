@@ -31,7 +31,7 @@ export const shared = angular
           if(!Auth.isAuth())
               return $state.target('auth');
           else {
-              //Users.visit(Auth.userToken());
+              Users.visit(Auth.userToken());
           }
 
       });
