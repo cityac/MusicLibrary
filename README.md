@@ -1,10 +1,12 @@
 # MusicLibrary
-There is test task to create simple youtube library
+There is test task to create simple youtube library.
 To build and run this project please do next:
 1) Run "npm install" in the root folder
 2) Run "npm start" in the root folder
+3) Json-server will be started on :3000 port
+4) Application is available on http://localhost:4500
 
-Json-server is used to mockup http requests and server side behaviour
+Json-server is used to mockup http requests and server side behaviour.
 
 What is done?
 1) Register new user or type "test" for username and "password" for password
