@@ -8,7 +8,7 @@ Json-server is used to mockup http requests and server side behaviour
 
 What is done?
 1) Register new user
-2) Sign in and logout
+2) Sign in and logout. There is no username check, so it is not unique
 3) Admin screen that provides the list of all registered users and last visit time
 4) Predefined two Albums and two movies inside of each album
 5) To open Album details user should lick orange circle button
