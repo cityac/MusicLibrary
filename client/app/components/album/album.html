@@ -1,0 +1,20 @@
+<section class="album">
+  <div class="blog-post-card">
+    <input type="text" g-places-autocomplete ng-model="vm.album.address" />
+    <h3>{{vm.album.address}}</h3>
+    <div class="blog-post-title">
+      <h1>{{vm.album.artist.name}}</h1>
+    </div>
+    <div class="blog-post-title">
+      <h2>{{ vm.album.title }}</h2>
+    </div>
+    <div class="movies">
+      <div ng-repeat="movie in vm.movies " class="album slide">
+        <div class="album-title">
+          <span>{{ movie.title }}</span>
+        </div>
+        <iframe width="980" height="480" ng-src="{{trustSrc(vm.getMovieSource(movie.sourceId), $index)}}" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>

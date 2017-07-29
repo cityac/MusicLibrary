@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "lastVisit": "Sun Jul 30 2017 01:12:56 GMT+0300 (FLE Daylight Time)",
+      "id": "545b355c-d84d-454f-a82d-1e57befec57d",
+      "password": "pass",
+      "username": "stan",
+      "token": "token_user_stan"
+    },
+    {
+      "username": "stan2",
+      "password": "pass2",
+      "token": "token_user_stan2",
+      "id": "e6f69720-04a2-441f-ad9c-d7b7be26dc9a",
+      "lastVisit": "Sun Jul 30 2017 01:11:59 GMT+0300 (FLE Daylight Time)"
+    },
+    {
+      "username": "stan3",
+      "password": "pass3",
+      "token": "token_user_stan3",
+      "id": "65155c08-f002-4bed-9b26-b739af573033",
+      "lastVisit": "Sun Jul 30 2017 01:12:43 GMT+0300 (FLE Daylight Time)"
+    }
+  ],
+  "albums": [
+    {
+      "id": "55aa018d9a73d85e195e5d00",
+      "artist": {
+        "name": "Tina S"
+      },
+      "title": "The best guitar covers",
+      "thumbnailId": "DIGfO2Dgc9Y"
+    },
+    {
+      "id": "55aa018d9a73d85e195e5d01",
+      "artist": {
+        "name": "Yngwie Malmsteen"
+      },
+      "title": "Live at the Budokan 1994",
+      "thumbnailId": "3NFv4Tc7F4M"
+    }
+  ],
+  "movies": [
+    {
+      "id": "65bb018d9a73d85e195e5d00",
+      "albumId": "55aa018d9a73d85e195e5d00",
+      "sourceId": "DIGfO2Dgc9Y",
+      "accessLevel": "0",
+      "title": "Vivaldi Guitar Cover by pretty girl"
+    },
+    {
+      "id": "65bb018d9a73d85e195e5d01",
+      "albumId": "55aa018d9a73d85e195e5d00",
+      "sourceId": "o6rBK0BqL2w",
+      "accessLevel": "0",
+      "title": "Ludwig van Beethoven - Moonlight Sonata ( 3rd Movement ) "
+    },
+    {
+      "id": "65bb018d9a73d85e195e5d02",
+      "albumId": "55aa018d9a73d85e195e5d01",
+      "sourceId": "3NFv4Tc7F4M",
+      "accessLevel": "0",
+      "title": "Black Star"
+    },
+    {
+      "id": "65bb018d9a73d85e195e5d03",
+      "albumId": "55aa018d9a73d85e195e5d01",
+      "sourceId": "p6dFJMINCHA",
+      "accessLevel": "0",
+      "title": "I'll See the Light Tonight"
+    }
+  ],
+  "accessType": [
+    {
+      "typeId": "0",
+      "description": "free"
+    },
+    {
+      "typeId": "1",
+      "description": "subscription"
+    }
+  ]
+}

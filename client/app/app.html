@@ -1,0 +1,29 @@
+
+
+<div id="app">
+
+  <header>
+
+    <nav>
+      <!-- <div class="logo">
+        <span ui-sref="home">
+          <a ui-sref="dashboard">Music Library</a>
+        </span>
+      </div> -->
+
+      <div class="links">
+        <a ui-sref="library" ng-hide="!isAuth">library</a>
+        <a ui-sref="admin" ng-hide="!isAuth">admin</a>
+        <a ui-sref="auth" ng-hide="isAuth">signin/signup</a>
+        <a ui-sref="auth" ng-click="logout()" ng-hide="!isAuth">logout</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div ui-view />
+
+  </main>
+  <footer />
+
+</div>

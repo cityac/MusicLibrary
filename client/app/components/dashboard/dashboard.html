@@ -1,0 +1,28 @@
+
+
+<section class="dashboard">
+
+  <div class="header">
+    <h1>{{ vm.message }}</h1>
+  </div>
+
+  <div class="albums">
+
+    <div ng-repeat="album in vm.albums "
+      class="album slide">
+      <!-- <div class="album-thumbnail">
+        <img  ng-src="{{vm.getThumbnailSource(album.thumbnailId)}}">
+      </div> -->
+
+      <div class="album-img">
+        <img ng-src="{{vm.getThumbnailSource(album.thumbnailId)}}" width="600" height="400">
+      </div>
+      <div class="album-artist">{{ album.artist.name }}</div>
+      <div class="album-title">{{ album.title }}</div>
+
+      <button ui-sref="album({slug: album.slug})" class="button fab action">
+        >
+      </button>
+    </div>
+  </div>
+</section>
