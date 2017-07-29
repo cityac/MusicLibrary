@@ -7,7 +7,7 @@ To build and run this project please do next:
 Json-server is used to mockup http requests and server side behaviour
 
 What is done?
-1) Register new user
+1) Register new user or type "test" for username and "password" for password
 2) Sign in and logout. There is no username check, so it is not unique
 3) Admin screen that provides the list of all registered users and last visit time
 4) Predefined two Albums and two movies inside of each album
